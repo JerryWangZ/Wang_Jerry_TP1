@@ -1,0 +1,13 @@
+:root{
+
+  //Dimension page
+  --max-width: 1440px;
+  --min-width: 375px;
+}
+
+//Media queries breakpoints
+$vw-thin:320px;
+$vw-small:576px;
+$vw-medium:768px;
+$vw-large:992px;
+$vw-huge:var(--max-width);
