@@ -1,0 +1,13 @@
+a{
+  &:link{
+    color:var(--color-link);
+    text-decoration: none;
+  }
+  &:hover{
+    color:var(--color-hover);
+    text-decoration: none;
+  }
+}
+ul {
+  list-style-type:none;
+}
