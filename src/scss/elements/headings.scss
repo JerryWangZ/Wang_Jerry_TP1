@@ -1,4 +1,7 @@
-h1,h2,h3{
+h1{
+  font-size: var(--fz-h1);
+}
+h2,h3{
   font-family: var(--ff-normal)
 }
 h2{
