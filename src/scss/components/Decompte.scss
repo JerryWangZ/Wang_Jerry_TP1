@@ -1,9 +1,24 @@
-/*
+
 .Decompte{
-  div {
-    border:10px solid black;
+
+  h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    padding-left:67px;
+    padding-right:68px;
+    padding-top:50px;
+  }
+  .flex {
     display:flex;
     justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 50px;
   }
+/*  .temps {
+    background: var(--color-bg-secondary);
+    color:var(--color-white);
+    padding-left:33px;
+    padding-right:32px;
+  }*/
 
-}*/
+}
