@@ -41,11 +41,10 @@
   .Decompte{
     h2 {
       font-size:48px;
-      margin-left:56px;
+      text-align:center;
     }
     .flex{
-      padding-left:109px;
-      padding-right:109px;
+      justify-content: center;
     }
     .temps{
       margin-right:20.83px;
@@ -66,17 +65,8 @@
 
 @media screen and (min-width: $vw-huge) {
   .Decompte{
-    h2 {
-      margin-left:379px;
-      margin-right:379px;
-    }
     .flex{
       align-content: center;
-      padding-right:680px;
-      max-width: 550px;
-
-     /* padding-left:365px;
-      padding-right:365px;*/
     }
 
     .temps{
