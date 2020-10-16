@@ -3,25 +3,26 @@
   height: 570px;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-div>h2{
+.hero h2{
   display:none;
 }
 
 @media screen and (min-width: $vw-medium) {
-  div>h2{
+  .hero h2{
     font-weight:700;
     font-size:48px;
     color:white;
     display: inherit;
-    position: absolute;
-    padding-left:193px;
-    padding-top:270px;
   }
 }
 
 @media screen and (min-width: $vw-huge) {
-  div>h2{
+  .hero h2{
     display:none;
   }
 }
